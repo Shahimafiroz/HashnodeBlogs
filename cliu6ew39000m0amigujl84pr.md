@@ -88,4 +88,98 @@ tags: javascript, arrays
 | insert | O(n) | unshift, splice |
 | delete | O(n) | splice |
 
+---
+
 # Implementing Array from scratch in JavaScript
+
+Array implementation is like deriving formulas - while solving problems, we're more focused on applying the formulas rather than actually deriving them. In interviews, you're unlikely to be asked to implement an array from scratch. However, knowing the derivation is like having an <mark>extra tool in your problem-solving toolbox.</mark> So, it's good to have that knowledge, just in case you encounter a sneaky question.
+
+```javascript
+// you will hardly be asked to implement array in an interview (its like derivation of formulas . While solving problems we are only concerned with applying the formulas and not actullly deriving the formula) But its good to konw the derivation
+
+class myArray {
+  constructor() {
+    this.length = 0;
+    this.data = {};
+  }
+  // get an element
+  get(index) {
+    return this.data[index];
+  }
+
+  push(item) {
+    this.data[this.length] = item;
+    this.length++;
+    return this.length;
+  }
+
+  pop() {
+    const lastItem = this.data[this.length - 1];
+    delete this.lastItem;
+    this.length--;
+    return lastItem;
+  }
+
+  delete(index) {
+    const itm = this.data[index];
+    this.shiftItm(index);
+  }
+
+  shiftItm(index) {
+    for (let i = index; i < this.length - 1; i++) {
+      this.data[i] = this.data[i + 1];
+    }
+    this.data[this.length - 1]; // commment this and the last item wont be deleted
+  }
+}
+
+const newArray = new myArray();
+newArray.push("shahima");
+newArray.push("you");
+newArray.push("khushi");
+newArray.push("Snaju");
+console.log(newArray);
+newArray.delete(1);
+console.log(newArray);
+```
+
+```javascript
+//OUTPUT                                                                      ─╯
+myArray {
+  length: 4,
+  data: { '0': 'shahima', '1': 'you', '2': 'khushi', '3': 'Snaju' }
+}
+myArray {
+  length: 4,
+  data: { '0': 'shahima', '1': 'khushi', '2': 'Snaju', '3': 'Snaju' }
+}
+```
+
+Here's an explanation of the code:
+
+* The `myArray` class has a constructor that <mark>initializes the properties</mark> `length` and `data`. `length` represents the number of elements in the data structure, and `data` is an <mark>object that will store the elements.</mark>
+    
+* The `get(index)` method allows you to <mark>retrieve an element from the data structure by providing an index.</mark> It returns the element at the specified index in the `data` object.
+    
+* The `push(item)` <mark>method adds an item</mark> to the data structure. It assigns the item to [`this.data`](http://this.data)`[this.length]`, which means the <mark>item will be stored at an index equal to the current length of the data structure.</mark> The `length` is then incremented, and the new length is returned.
+    
+* The `pop()` method <mark>removes the last item</mark> from the data structure. It retrieves the last item using [`this.data`](http://this.data)`[this.length - 1]`, decrements the `length`, and returns the last item. However, there is an issue in the code with the line `delete this.lastItem;`. It should be `delete` [`this.data`](http://this.data)`[this.length - 1];` to delete the last item from the `data` object.
+    
+* The `delete(index)` <mark>method removes an item from the data structure based on the provided index.</mark> It <mark>calls th</mark>e `shiftItm(index)` method to shift the remaining items in the `data` object to fill the gap left by the deleted item.
+    
+* The `shiftItm(index)` method is responsible for <mark>shifting the elements </mark> in the `data` object when an item is deleted. It starts from the provided index and iterates over the elements, <mark>moving each item one position to the left</mark>. However, there is an issue in the code with the line [`this.data`](http://this.data)`[this.length - 1];`. It should be `delete` [`this.data`](http://this.data)`[this.length - 1];` to remove the last item from the `data` object.
+    
+
+The code demonstrates the implementation of basic array-like operations using an object and associated methods. However, as noted in the provided comment, implementing an array is not a typical interview question. It's more important to understand and apply array operations rather than focusing on the internal implementation of an array-like structure.
+
+> " In interviews, it's important to approach string-related questions as if they were array questions. When we think about it, strings are essentially arrays of characters. So, most of the time during an interview, when you encounter a question like "reverse a string," the best approach is to convert the string into an array.
+> 
+> You can achieve this by using a loop or utilizing string manipulation methods like `split()` in JavaScript. Once you have performed the necessary operations on the array, you can convert it back to a string before returning the final result.
+> 
+> Reversing a string is just one example of a common interview question where you manipulate strings. Remember to treat strings as arrays and apply array-related techniques. In the next video, we will demonstrate this concept further with a typical interview question. "
+
+# Resources
+
+1. [Technical Interview Mind Map](https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link) (this map belongs to ZMT )
+    
+2. [Fundamental Interview Questions Github Repo](https://github.com/Shahimafiroz/dataStructures/tree/main/array)
