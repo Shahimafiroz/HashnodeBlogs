@@ -163,7 +163,7 @@ Here's an explanation of the code:
     
 * The `push(item)` <mark>method adds an item</mark> to the data structure. It assigns the item to [`this.data`](http://this.data)`[this.length]`, which means the <mark>item will be stored at an index equal to the current length of the data structure.</mark> The `length` is then incremented, and the new length is returned.
     
-* The `pop()` method <mark>removes the last item</mark> from the data structure. It retrieves the last item using [`this.data`](http://this.data)`[this.length - 1]`, decrements the `length`, and returns the last item. However, there is an issue in the code with the line `delete this.lastItem;`. It should be `delete` [`this.data`](http://this.data)`[this.length - 1];` to delete the last item from the `data` object.
+* The `pop()` the method <mark>removes the last item</mark> from the data structure. It retrieves the last item using [`this.data`](http://this.data)`[this.length - 1]`, decrements the `length`, and returns the last item. However, there is an issue in the code with the line `delete this.lastItem;`. It should be `delete` [`this.data`](http://this.data)`[this.length - 1];` to delete the last item from the `data` object.
     
 * The `delete(index)` <mark>method removes an item from the data structure based on the provided index.</mark> It <mark>calls th</mark>e `shiftItm(index)` method to shift the remaining items in the `data` object to fill the gap left by the deleted item.
     
@@ -178,8 +178,35 @@ The code demonstrates the implementation of basic array-like operations using an
 > 
 > Reversing a string is just one example of a common interview question where you manipulate strings. Remember to treat strings as arrays and apply array-related techniques. In the next video, we will demonstrate this concept further with a typical interview question. "
 
+# Fundamental Problems
+
+1. Reverse a string { shahima -----&gt; amihahs )
+    
+2. Merge sorted Arrays
+    
+3. Two sum
+    
+4. Maximum subarray
+    
+5. Move zeroes
+    
+6. Contains Duplicate
+    
+7. Rotate Array
+    
+
 # Resources
 
 1. [Technical Interview Mind Map](https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link) (this map belongs to ZMT )
     
 2. [Fundamental Interview Questions Github Repo](https://github.com/Shahimafiroz/dataStructures/tree/main/array)
+    
+3. [Try More On Leetcode](https://leetcode.com/problemset/all/?difficulty=EASY&page=1)
+    
+4. [My profile on leetcode](https://leetcode.com/khanshahima4/)
+    
+5. [Join() ----&gt; documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) (converts array back to string)
+    
+6. [split() ------&gt; documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) (converts a string to an array)
+    
+7. [reverse() ------&gt; documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) (inbuilt reverse function in ES6)
