@@ -180,20 +180,53 @@ The code demonstrates the implementation of basic array-like operations using an
 
 # Fundamental Problems
 
-1. Reverse a string { shahima -----&gt; amihahs )
+Remember Arrays are dynamic in Java Script.
+
+## Reverse a string
+
+Question:-
+
+Write a function to reverse a string input:- "shahima", output:- "amihahs"
+
+**Hints:-**
+
+* **Instinctive Method:**\- Simply initialize another array and reverse it using for loop. (Not the best solution, bad space and time complexity)
     
-2. Merge sorted Arrays
+* **In place (Temp variable) :** - Use a 3rd Variable to swap 1st and last elements and continue until the entire array is covered in half ( In place solution no new array creation )
     
-3. Two sum
+* **Solution using Built-in Java Script methods**: - Use Split, reverse & Join. (Be aware the functions have their own time and space complexities)
     
-4. Maximum subarray
+* **ES6 One-line solution**:- Be aware the functions have their own time and space complexities
     
-5. Move zeroes
+    ```javascript
+    const dopemethod = (str) => console.log("5) " + [...str].reverse().join(""));
+    ```
     
-6. Contains Duplicate
+
+## Merge sorted Arrays
+
+Question:
+
+You are given 2 sorted arrays and their length as input (ex: a = \[1, 7, 9, 11\], m = 4, b=\[2, 6, 10\], n = 3). You have to merge them as one big array sorted array.
+
+{You can give the answer as a different array, but the hint and solution for the **in-place** solution are also given}
+
+* **Instinctive method**:- Initialize a separate array and compare both the given array using pointers and push the smaller one in the newly initialized array
     
-7. Rotate Array
+* **In place (3-pointer method):-** Consider three-pointers
     
+    int i = m - 1; int j = n - 1; int k = m + n - 1;
+    
+
+## Two sum
+
+## Maximum subarray
+
+## Move zeroes
+
+## Contains Duplicate
+
+## Rotate Array
 
 # Resources
 
