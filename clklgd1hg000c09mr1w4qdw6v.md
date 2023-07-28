@@ -20,30 +20,32 @@ So, let's dust off those cobwebs of curiosity and dive deep into the world of UR
 
 Stay tuned for our next adventure, as we embark on this exhilarating quest to understand the inner workings of the internet. Together, we'll conquer the digital realm and transform our 'internet confusion' into 'internet fusion' - because knowledge is power, and geekiness is the new cool! Let's geek out and unravel the mysteries of the internet like never before.
 
-#   
-From ARPANET to Web 2.0: Unraveling the Internet's Extraordinary Timeline!
+# From ARPANET to Web 2.0: Unraveling the Internet's Extraordinary Timeline!
 
-1. It all began in 1957 when the **US formed the Advanced Research Project Agency**, setting the stage for groundbreaking innovations.
+* It all began in 1957 when the **US formed the Advanced Research Project Agency**, setting the stage for groundbreaking innovations.
     
-2. In 1961, the visionary **Leonard Kleinrock proposed the idea of ARPANET,** a network that would change the world forever. Four years later, in **1965, the term "packet"** was coined by Donald Davies, laying the foundation for data transmission magic.
+* In 1961, the visionary **Leonard Kleinrock proposed the idea of ARPANET,** a network that would change the world forever. Four years later, in **1965, the term "packet"** was coined by Donald Davies, laying the foundation for data transmission magic.
     
-3. The magic truly came to life in 1**969 when ARPANET became functional**, marking the official birth of the internet. The historic moment happened on October 29th when the **first data transmission took flight between UCLA**(University of California, Los Angeles) **and SRI**(Stanford Research Institute) - a true milestone!
+* The magic truly came to life in 1**969 when ARPANET became functional**, marking the official birth of the internet. The historic moment happened on October 29th when the **first data transmission took flight between UCLA**(University of California, Los Angeles) **and SRI**(Stanford Research Institute) - a true milestone!
     
-4. The internet's momentum continued to build. In 1971, Ray Tomlinson sent the first email, revolutionizing digital communication. That same year, the groundwork for Wi-Fi was laid with the introduction of ALOHAnet.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690564628244/610fed49-2031-4cde-ba31-5820e0b5175f.png align="center")
+
+1. The internet's momentum continued to build. In 1971, Ray Tomlinson sent the first email, revolutionizing digital communication. That same year, the groundwork for Wi-Fi was laid with the introduction of ALOHAnet.
     
-5. The innovation train kept chugging along. In 1973, Robert Metcalfe created Ethernet, and an experimental VoIP call rang out, foreshadowing a future of seamless voice communication.
+2. The innovation train kept chugging along. In 1973, Robert Metcalfe created Ethernet, and an experimental VoIP call rang out, foreshadowing a future of seamless voice communication.
     
-6. As the '70s rolled on, the internet's backbone took shape. In 1976, the first true IP router emerged, thanks to the genius of Ginny Strazisar. Two years later, the legendary Bob Kahn gave birth to the TCP/IP protocol, the heartbeat of modern networking.
+3. As the '70s rolled on, the internet's backbone took shape. In 1976, the first true IP router emerged, thanks to the genius of Ginny Strazisar. Two years later, the legendary Bob Kahn gave birth to the TCP/IP protocol, the heartbeat of modern networking.
     
-7. The internet's growth knew no bounds. In 1981, IPv4 was officially defined, propelling us into a world of interconnected devices. Then, in 1983, DNS burst onto the scene, simplifying the way we navigate the digital realm.
+4. The internet's growth knew no bounds. In 1981, IPv4 was officially defined, propelling us into a world of interconnected devices. Then, in 1983, DNS burst onto the scene, simplifying the way we navigate the digital realm.
     
-8. The '80s brought more technological wonders. In 1988, network firewall technology made its debut, fortifying the internet's security and shielding us from digital adversaries.
+5. The '80s brought more technological wonders. In 1988, network firewall technology made its debut, fortifying the internet's security and shielding us from digital adversaries.
     
-9. The '90s were a whirlwind of innovation. In **1991: Sir Tim Berners-Lee introduced the World Wide Web (WWW),** a system of interlinked documents that could be accessed through the Internet. The first-ever website went live, and the web began to weave its magic.
+6. The '90s were a whirlwind of innovation. In **1991: Sir Tim Berners-Lee introduced the World Wide Web (WWW),** a system of interlinked documents that could be accessed through the Internet. The first-ever website went live, and the web began to weave its magic.
     
-10. In 1996, IPv6 arrived, expanding the internet's capacity to an unimaginable scale. Then, in 1997, Wi-Fi leapt forward with the introduction of the 802.11 standards, setting the stage for faster, wireless connections.
+7. In 1996, IPv6 arrived, expanding the internet's capacity to an unimaginable scale. Then, in 1997, Wi-Fi leapt forward with the introduction of the 802.11 standards, setting the stage for faster, wireless connections.
     
-11. And last but not least, the early **2000s witnessed the arrival of Web 2.0,** transforming the internet into an interactive, dynamic wonderland where users could create, share, and collaborate like never before.
+8. And last but not least, the early **2000s witnessed the arrival of Web 2.0,** transforming the internet into an interactive, dynamic wonderland where users could create, share, and collaborate like never before.
     
 
 From a simple idea to a global phenomenon, the timeline of computer networks is a breathtaking saga of human ingenuity. As we continue to ride the wave of innovation, who knows what wonders the future holds? The journey of computer networks is an ever-unfolding tale, and we're all protagonists in this awe-inspiring digital adventure! 🚀🌐
@@ -64,9 +66,15 @@ World Wide Web! The shining star in the constellation of computer networks! Born
 
 In the early '90s, Sir Tim had a groundbreaking vision - a way to navigate the vast Internet with ease. He introduced the **World Wide Web, a system of interlinked documents that could be accessed through the Internet**. This ingenious concept revolutionized how we interacted with information and each other.
 
-In **1991, the first-ever website went live**, ( 1st website to be ever created: [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html) )and the web began to weave its magic. Web pages blossomed like digital flowers, offering a rich tapestry of knowledge and entertainment. Hyperlinks became the threads connecting this digital realm, allowing us to hop from one page to another, exploring a universe of ideas. Have a look at the man himself: [https://home.web.cern.ch/science/computing/birth-web](https://home.web.cern.ch/science/computing/birth-web)
+1st website to be ever created:
 
-## **Welcome to the captivating realm of the World Wide Web (www)!**
+[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690544657331/7afec446-a4e4-4953-9392-f93b5d88fc74.png align="center")](http://info.cern.ch/hypertext/WWW/TheProject.html)
+
+In **1991, the first-ever website went live**, and the web began to weave its magic. Web pages blossomed like digital flowers, offering a rich tapestry of knowledge and entertainment. Hyperlinks became the threads connecting this digital realm, allowing us to hop from one page to another, exploring a universe of ideas. Have a look at the man himself:
+
+[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690544718361/f5f04763-53e7-405b-8fc8-19183dc9b568.png align="center")](https://home.web.cern.ch/science/computing/birth-web)
+
+## Welcome to the captivating realm of the World Wide Web (www)!
 
 Here, an enchanting information system awaits, where documents and resources are like treasure troves, accessible through magical uniform resource locators (URLs). What's more, they're interlinked with mesmerizing hyperlinks, leading you on fascinating journeys across the digital landscape.
 
@@ -74,7 +82,7 @@ Behold the wondrous Hypertext Transfer Protocol (HTTP), a mystical conduit that 
 
 But wait, there's more! Behind the scenes, a magical web server works tirelessly to publish and share these digital wonders, ensuring they reach eager explorers like you.
 
-## **Initially, we did not have any mystical oracle called a Search engine.**
+## Initially, we did not have any mystical oracle called a **Search engine.**
 
 In the early days of the World Wide Web, when it was but a fledgling realm of digital wonders, there were no mystical search engines to assist brave explorers in their quests for knowledge. Travelling through the web's vast expanse was akin to wandering through a vast wilderness, relying on serendipity to stumble upon hidden gems.
 
@@ -85,3 +93,5 @@ Imagine a web browser as your trusty guide, leading you through the vast digital
 On the other hand, a search engine is like a mystical oracle, waiting to answer your questions and fulfil your quests for knowledge. It's a powerful tool that scours the web, seeking out information, and organizing it into a treasure trove of search results. Just type in your query, and the search engine will conjure up a list of relevant websites and resources to explore.
 
 So, while a web browser brings the magic of the internet to life before your eyes, a search engine stands ready to help you navigate through its vast wonders. Together, they form a dynamic duo, making your digital adventures a truly enchanting experience! 🕵️‍♂️🔍🌐
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690564878774/7632d782-bbe1-488c-aaa9-ee4603dd161e.png align="center")
