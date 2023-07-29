@@ -3,7 +3,7 @@ title: "How does the Internet work?"
 datePublished: Thu Jul 27 2023 17:52:44 GMT+0000 (Coordinated Universal Time)
 cuid: clklgd1hg000c09mr1w4qdw6v
 slug: how-does-the-internet-work
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690623403326/2f42fd3a-8141-4dc6-8d63-25a7f7577772.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690635349464/48722656-a56f-460d-90bf-f6214fa947c8.png
 tags: computernetwork
 
 ---
@@ -17,8 +17,6 @@ Hello, folks! Finally, not a boring blog. Ever since I embarked on my computer e
 But fear not! Today, I'm here to break down the magic behind the internet in a way that won't put you to sleep. Get ready to embark on an exciting journey through the virtual realms, where we'll unravel the mysteries of data packets zipping through cyberspace and the art of connecting the world at the speed of light.
 
 So, let's dust off those cobwebs of curiosity and dive deep into the world of URLs, IP addresses, OSI models and DNS, where complex concepts turn into thrilling tales of information highways and global connectivity. By the time we're done, you'll be the tech-savvy guru among your friends, decoding tech jargon like a pro.
-
-Stay tuned for our next adventure, as we embark on this exhilarating quest to understand the inner workings of the internet. Together, we'll conquer the digital realm and transform our 'internet confusion' into 'internet fusion' - because knowledge is power, and geekiness is the new cool! Let's geek out and unravel the mysteries of the internet like never before.
 
 # From ARPANET to Web 2.0: Unraveling the Internet's Extraordinary Timeline!
 
@@ -41,6 +39,8 @@ Stay tuned for our next adventure, as we embark on this exhilarating quest to un
     
 5. The '80s brought more technological wonders. In 1988, network firewall technology made its debut, fortifying the internet's security and shielding us from digital adversaries.
     
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690647465096/13d45119-9351-432c-a03b-955ba396f648.png align="center")
+    
 6. The '90s were a whirlwind of innovation. In **1991: Sir Tim Berners-Lee introduced the World Wide Web (WWW),** a system of interlinked documents that could be accessed through the Internet. The first-ever website went live, and the web began to weave its magic.
     
 7. In 1996, IPv6 arrived, expanding the internet's capacity to an unimaginable scale. Then, in 1997, Wi-Fi leapt forward with the introduction of the 802.11 standards, setting the stage for faster, wireless connections.
@@ -57,8 +57,6 @@ From a simple idea to a global phenomenon, the timeline of computer networks is 
 [![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690618146056/c3528bcf-9100-4336-a0bb-7d718b01a72c.png align="center")](https://www.internetsociety.org/)
 
 Imagine **TCP as the dependable mail carrier of the internet world** - it ensures that your precious digital packages reach their destination safe and sound, without any damage or getting lost along the way. It's like a virtual guardian angel, making sure your data stays intact and in order!
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690623360834/a23c874c-f2c9-4417-b09f-b3600059797f.png align="center")
 
 Now, meet **IP, the digital GPS that navigates the vast web of networks**. Just like GPS guides you to your destination, IP assigns unique addresses to devices, helping them find their way through the virtual highways of the internet. With IP at the helm, data packets embark on thrilling journeys, hopping from one network to another, until they finally reach their intended recipients.
 
@@ -84,8 +82,6 @@ In **1991, the first-ever website went live**, and the web began to weave its ma
 
 [![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690544718361/f5f04763-53e7-405b-8fc8-19183dc9b568.png align="center")](https://home.web.cern.ch/science/computing/birth-web)
 
-### Welcome to the captivating realm of the World Wide Web (www)!
-
 Here, an enchanting information system awaits, where documents and resources are like treasure troves, accessible through magical uniform resource locators (URLs). What's more, they're interlinked with mesmerizing hyperlinks, leading you on fascinating journeys across the digital landscape.
 
 Behold the wondrous Hypertext Transfer Protocol (HTTP), a mystical conduit that lets you transport these resources to your fingertips. And the gatekeeper of this magical realm? None other than the charming web browser, a friendly software application that grants you access to the web's secrets.
@@ -105,5 +101,7 @@ Imagine a web browser as your trusty guide, leading you through the vast digital
 On the other hand, a search engine is like a mystical oracle, waiting to answer your questions and fulfil your quests for knowledge. It's a powerful tool that scours the web, seeking out information, and organizing it into a treasure trove of search results. Just type in your query, and the search engine will conjure up a list of relevant websites and resources to explore.
 
 So, while a web browser brings the magic of the internet to life before your eyes, a search engine stands ready to help you navigate through its vast wonders. Together, they form a dynamic duo, making your digital adventures a truly enchanting experience! 🕵️‍♂️🔍🌐
+
+# Client Server Architecture.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690564878774/7632d782-bbe1-488c-aaa9-ee4603dd161e.png align="center")
