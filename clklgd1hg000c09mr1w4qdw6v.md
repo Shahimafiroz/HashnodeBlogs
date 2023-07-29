@@ -3,7 +3,7 @@ title: "How does the Internet work?"
 datePublished: Thu Jul 27 2023 17:52:44 GMT+0000 (Coordinated Universal Time)
 cuid: clklgd1hg000c09mr1w4qdw6v
 slug: how-does-the-internet-work
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690543922329/cbb9d0c0-eada-43bb-94f9-ca2ebe3ed224.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690623403326/2f42fd3a-8141-4dc6-8d63-25a7f7577772.png
 tags: computernetwork
 
 ---
@@ -52,13 +52,23 @@ From a simple idea to a global phenomenon, the timeline of computer networks is 
 
 **What are these protocols?**
 
-**Protocols are like traffic rules for computers! T**hey're sets of rules and conventions that make sure data is transmitted, addressed, and received correctly. Just like drivers follow traffic signals to avoid chaos, devices use protocols to communicate smoothly on networks. From the internet to your home Wi-Fi, protocols keep everything in sync, ensuring the digital world runs like a well-orchestrated dance! 🚀🌐
+**Protocols are like traffic rules for computers! T**hey're sets of rules and conventions that make sure data is transmitted, addressed, and received correctly. Just like drivers follow traffic signals to avoid chaos, devices use protocols to communicate smoothly on networks. From the internet to your home Wi-Fi, protocols keep everything in sync, ensuring the digital world runs like a well-orchestrated dance! 🚀🌐 But who is responsible for these protocols, ensuring their implementation, execution updation and introduction of new protocols in the Internet world? The Internet Society.
+
+[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690618146056/c3528bcf-9100-4336-a0bb-7d718b01a72c.png align="center")](https://www.internetsociety.org/)
 
 Imagine **TCP as the dependable mail carrier of the internet world** - it ensures that your precious digital packages reach their destination safe and sound, without any damage or getting lost along the way. It's like a virtual guardian angel, making sure your data stays intact and in order!
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690623360834/a23c874c-f2c9-4417-b09f-b3600059797f.png align="center")
 
 Now, meet **IP, the digital GPS that navigates the vast web of networks**. Just like GPS guides you to your destination, IP assigns unique addresses to devices, helping them find their way through the virtual highways of the internet. With IP at the helm, data packets embark on thrilling journeys, hopping from one network to another, until they finally reach their intended recipients.
 
 But wait, there's more to the story! Before TCP/IP's shining reign, there was **NCP - the internet's adorable grandparent.** NCP laid the groundwork for networking, like a proud pioneer, but it had its quirks. It couldn't handle the fast-paced demands of the digital age, so TCP/IP took over like a speedy superhero, bringing robustness and flexibility to the communication game.
+
+Calling all digital dreamers! Share your groundbreaking ideas with the Internet Society for the new Internet feature you envision. From virtual teleportation to cosmic libraries of knowledge, your vision can shape the web's future.
+
+[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690618695889/342302d7-22a1-4b51-9381-908738f21c04.png align="center")](https://www.rfc-editor.org/about/independent/)
+
+Submit your captivating comments to the RFC Editor, who guards the Request for Comments process, a collection of visionary documents that fuel internet innovations. RFCs are the blueprints for internet growth, reviewed and published by the RFC Editor for public access. Embrace the power of your imagination, be an internet pioneer, and ignite the next great leap for the web! 🚀💡🌐
 
 # World Wide Web: Weaving the Threads of Digital Discovery!
 
@@ -74,13 +84,15 @@ In **1991, the first-ever website went live**, and the web began to weave its ma
 
 [![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690544718361/f5f04763-53e7-405b-8fc8-19183dc9b568.png align="center")](https://home.web.cern.ch/science/computing/birth-web)
 
-## Welcome to the captivating realm of the World Wide Web (www)!
+### Welcome to the captivating realm of the World Wide Web (www)!
 
 Here, an enchanting information system awaits, where documents and resources are like treasure troves, accessible through magical uniform resource locators (URLs). What's more, they're interlinked with mesmerizing hyperlinks, leading you on fascinating journeys across the digital landscape.
 
 Behold the wondrous Hypertext Transfer Protocol (HTTP), a mystical conduit that lets you transport these resources to your fingertips. And the gatekeeper of this magical realm? None other than the charming web browser, a friendly software application that grants you access to the web's secrets.
 
 But wait, there's more! Behind the scenes, a magical web server works tirelessly to publish and share these digital wonders, ensuring they reach eager explorers like you.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690622182428/a1374ef3-d79c-45fb-a50d-9a5639cd5db2.png align="center")
 
 ## Initially, we did not have any mystical oracle called a **Search engine.**
 
