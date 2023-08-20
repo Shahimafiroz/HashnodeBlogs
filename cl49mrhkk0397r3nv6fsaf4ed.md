@@ -1,9 +1,9 @@
 ---
-title: "Introduction to Object-Oriented programming"
+title: "Introduction programming"
 datePublished: Sat Jun 11 2022 08:43:24 GMT+0000 (Coordinated Universal Time)
 cuid: cl49mrhkk0397r3nv6fsaf4ed
-slug: introduction-to-object-oriented-programming
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692524467191/354a74db-88af-4334-8667-ff462f18869a.png
+slug: introduction-programming
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692529821296/36164097-6afc-44af-bc84-d5574aef1724.png
 tags: java, javascript, flutter, community-classroom, shahima
 
 ---
