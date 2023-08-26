@@ -14,7 +14,7 @@ The four main core concepts in object-oriented programming are
 
 * **Abstraction:** <mark>Simplify complex reality </mark> by focusing on essential attributes and behaviours while hiding unnecessary details.
     
-* **Encapsulation:** <mark> Bundle data and methods </mark> that operate on that data within a <mark>single unit </mark> (class), controlling access and maintaining data integrity.
+* **Encapsulation:** <mark>Bundle data and methods </mark> that operate on that data within a <mark>single unit </mark> (class), controlling access and maintaining data integrity.
     
 * **Inheritance:** <mark>Create new classes based on existing ones,</mark> inheriting their attributes and behaviours. This promotes code reuse and hierarchy formation.
     
@@ -29,25 +29,25 @@ The four main core concepts in object-oriented programming are
 
 # Abstraction
 
-Now, let's move on to the first fundamental idea in object-oriented programming: **abstraction**. Abstraction means simplifying reality. For instance, think of a <mark>person as an object.</mark> However, when designing an application to handle person-related data, you <mark>won't need to know everything about a person</mark>. Instead, you'd <mark> focus on the relevant data and tasks</mark> you want to perform.
+Now, let's move on to the first fundamental idea in object-oriented programming: **abstraction**. Abstraction means simplifying reality. For instance, think of a <mark>person as an object.</mark> However, when designing an application to handle person-related data, you <mark>won't need to know everything about a person</mark>. Instead, you'd <mark>focus on the relevant data and tasks</mark> you want to perform.
 
 *(This image doesn't belong to me)*
 
 ![AlgoDaily - Object Oriented Programming Class Principles - Abstraction](https://i.ibb.co/7Qg0MhB/abstraction.png align="left")
 
-Abstraction allows you to <mark> define a general structure and behaviour for classes </mark> while leaving the specific details to their subclasses. It also <mark>promotes code reusability</mark> and separation of concerns. For example, you can create an abstract class-like **Shape** or an interface-like **drawable** to define common attributes and behaviours for different shapes in a graphics application. Concrete shapes like `Circle` and `Rectangle` can then extend the abstract class or implement the interface while providing their own specific implementations of the abstract methods.
+Abstraction allows you to <mark>define a general structure and behaviour for classes </mark> while leaving the specific details to their subclasses. It also <mark>promotes code reusability</mark> and separation of concerns. For example, you can create an abstract class-like **Shape** or an interface-like **drawable** to define common attributes and behaviours for different shapes in a graphics application. Concrete shapes like `Circle` and `Rectangle` can then extend the abstract class or implement the interface while providing their own specific implementations of the abstract methods.
 
 1. To create objects in code, you require a **class**. A <mark>class acts as a template for constructing objects.</mark> It's code written by a programmer to define an object's attributes and operations.
     
 2. **<mark>Attributes </mark>** <mark>describe the object </mark> and Sometimes, these are called **fields** because they hold data. Many programmers refer to them as **properties**. These properties are written in the class, either as public variables or as property procedures.
     
-3. **<mark>Operations</mark>** <mark> are things that can be done with or to an object</mark>. They're sometimes seen as **behaviours**, but more commonly, they're known as **methods**. Methods are like programs within the class. They're coded as procedures or functions.
+3. **<mark>Operations</mark>** <mark>are things that can be done with or to an object</mark>. They're sometimes seen as **behaviours**, but more commonly, they're known as **methods**. Methods are like programs within the class. They're coded as procedures or functions.
     
 4. Think of a **class** as a template for making objects. It's like a pastry cutter: once it's made, you can use it to create lots of objects of the same kind. A class is sometimes called a **type**.
     
-5. Each **<mark>object</mark>** <mark> is an example of a class in the computer's memory.</mark> <mark>Making an object from a class is called </mark> **<mark>instantiation</mark>**<mark>.</mark> Once these objects exist, you can give them values for their properties, making each object a unique thing.
+5. Each **<mark>object</mark>** <mark>is an example of a class in the computer's memory.</mark> <mark>Making an object from a class is called </mark> **<mark>instantiation</mark>**<mark>.</mark> Once these objects exist, you can give them values for their properties, making each object a unique thing.
     
-6. The properties are defined in the class using property procedures. These procedures might have code to double-check property values when they're being set. This helps ensure the data inside the object is trustworthy. <mark>The values assigned to an object's properties are collectively referred to as the </mark> **<mark>state</mark>** <mark> of the object.</mark>
+6. The properties are defined in the class using property procedures. These procedures might have code to double-check property values when they're being set. This helps ensure the data inside the object is trustworthy. <mark>The values assigned to an object's properties are collectively referred to as the </mark> **<mark>state</mark>** <mark>of the object.</mark>
     
 
 # Encapsulation
@@ -83,7 +83,7 @@ Imagine you're driving a car. The dashboard in front of you provides essential i
 
 # Inheritance
 
-**Inheritance** is a core concept in object-oriented programming (OOP) where a <mark>new class (called a </mark> **<mark>subclass</mark>** <mark> or </mark> **<mark>derived class</mark>**<mark>) is created based on an existing class (called a </mark> **<mark>base class</mark>** <mark> or </mark> **<mark>superclass</mark>**<mark>). </mark> The subclass automatically inherits the attributes (data) and behaviours (methods) of the base class.
+**Inheritance** is a core concept in object-oriented programming (OOP) where a <mark>new class (called a </mark> **<mark>subclass</mark>** <mark>or </mark> **<mark>derived class</mark>**<mark>) is created based on an existing class (called a </mark> **<mark>base class</mark>** <mark>or </mark> **<mark>superclass</mark>**<mark>). </mark> The subclass automatically inherits the attributes (data) and behaviours (methods) of the base class.
 
 Inheritance allows you to:
 
@@ -161,6 +161,67 @@ Polymorphism in programming can be categorized into two main types: **Compile-ti
         
 
 Both types of polymorphism contribute to the flexibility and versatility of object-oriented programming, allowing objects to behave differently based on their specific characteristics while maintaining a unified interface.
+
+# Scope & Shadowing
+
+### **Scope:**
+
+Scope refers to the <mark>region in code where a variable is accessible</mark> and can be used. Variables have different levels of visibility based on where they are declared, such as global scope (accessible throughout the program) or local scope (restricted to a specific block or function).
+
+**1\. Global Scope:**
+
+* Variables declared at the <mark>top level of a program</mark>.
+    
+* Accessible from anywhere in the program.
+    
+* Remain in memory throughout the program's execution.
+    
+
+**2\. Local Scope:**
+
+* Variables declared within a <mark>specific block of code</mark>, like a function or loop.
+    
+* Limited to that block's scope.
+    
+* Only accessible within the block where they are defined.
+    
+* Provides encapsulation and avoids unintentional variable interference.
+    
+
+### **Shadowing:**
+
+Shadowing occurs when a <mark>variable declared in an inner scope (like a function) has the same name as a variable declared in an outer scope. </mark> The inner variable temporarily hides or "shadows" the outer variable within its scope, making the outer variable inaccessible until you leave the inner scope. This can lead to confusion and unintended behaviour, so it's important to manage variable names and scopes carefully.
+
+### Let's take an analogy:
+
+Imagine you're in a large library with multiple floors. Each floor represents a different scope, and each shelf on a floor is like a variable declaration within that scope.
+
+**Scope:**
+
+* The <mark>entire library</mark> represents the program's <mark> runtime environment.</mark>
+    
+* <mark>Each floor</mark> in the library represents a different <mark>scope in your code.</mark>
+    
+* On each floor, you have <mark>shelves</mark> that hold different books <mark>(variables) you</mark> can use.
+    
+
+**Shadowing:**
+
+* Now, imagine you're on one floor, and you see a book with a title (variable name) <mark>"Story."</mark> You can easily pick up this book because it's in your immediate scope.
+    
+* However, if you move to another floor, you might find <mark>another book </mark> with the <mark>same title "Story."</mark> You can still pick up this book, but it might not be the same book you saw on the previous floor. <mark>The book on the current floor is shadowing the book on the previous floor</mark>.
+    
+
+In this analogy:
+
+* The different floors represent different scopes in your code, such as global scope or local scopes within functions.
+    
+* The books on the shelves represent variables.
+    
+* Shadowing occurs when you encounter variables with the same name in different scopes. The inner scope's variable temporarily "shadows" the outer one, making it inaccessible until you leave the inner scope.
+    
+
+Just as you need to be careful about which "Story" book you're picking up on different library floors, you need to be aware of which variable you're accessing in different parts of your code to avoid unexpected behaviors caused by shadowing.
 
 # Conclusion
 
