@@ -15,7 +15,7 @@ In Java, both `String` and `StringBuilder` are <mark>classes used to work with s
 
 * `String` is a class that <mark>represents an immutable sequence of characters.</mark> Immutable means that once a `String` object is created, its contents cannot be changed. If you want to modify `String`, a new `String` object is created with the modified content.
     
-* Since `String` objects are immutable, and <mark>operations like concatenation, substring extraction, and manipulation result in the creation of new </mark> `String` <mark> objects. </mark> This can lead to <mark>performance issues</mark> when dealing with a large number of modifications, as memory allocation and copying take place.
+* Since `String` objects are immutable, and <mark>operations like concatenation, substring extraction, and manipulation result in the creation of new </mark> `String` <mark>objects. </mark> This can lead to <mark>performance issues</mark> when dealing with a large number of modifications, as memory allocation and copying take place.
     
 * Example:
     
@@ -113,7 +113,7 @@ Now, if you use regular strings, it's like having <mark>separate stickers for ea
 
 Now, think about using a <mark>special pen called the "Magic Pen."</mark> With this pen, you can write and <mark>rewrite words directly on the paper.</mark> If you want to change a word or add more words, you just use the pen to adjust things without taking stickers off or rearranging them.
 
-In Java, <mark>regular strings are like the stickers </mark> – you have to remove and reattach them when you want to change the message. <mark>But </mark> `StringBuilder` <mark> is like the magic pen.</mark> It helps you write and adjust your message (string) on the paper without the need to redo everything.
+In Java, <mark>regular strings are like the stickers </mark> – you have to remove and reattach them when you want to change the message. <mark>But </mark> `StringBuilder` <mark>is like the magic pen.</mark> It helps you write and adjust your message (string) on the paper without the need to redo everything.
 
 So, `StringBuilder` is like a special pen that helps you create and change messages (strings) on the paper (your program) without dealing with the hassle of stickers and rearranging. It makes things quicker and keeps your work tidy.
 
@@ -121,7 +121,7 @@ So, `StringBuilder` is like a special pen that helps you create and change messa
 
 Technically, a `StringBuilder` in Java is a class that provides a <mark>more efficient way to manipulate and construct strings </mark> when compared to the traditional `String` class. It addresses the performance and memory overhead associated with creating new `String` objects for each concatenation or modification.
 
-Here are some fundamental characteristics of StringBuilder
+## Here are some fundamental characteristics of StringBuilder
 
 1. **Mutable Buffer:** `StringBuilder` internally uses a <mark>resizable character array (buffer) to store the characters </mark> of the string being constructed. This buffer can grow dynamically as needed, allowing you to efficiently append, insert, or delete characters.
     
@@ -135,21 +135,25 @@ Here are some fundamental characteristics of StringBuilder
     
 6. **Performance Benefits:** `StringBuilder` is particularly useful when you need to build strings through concatenation or modifications in loops or intensive operations. It <mark>reduces memory overhead and reduces the number of objects created, leading to better performance.</mark>
     
-7. **Thread Safety:** Unlike `StringBuffer`, `StringBuilder` is not synchronized, which means it is <mark>not thread-safe.</mark> This is okay when you're working within a single thread, but if you need to <mark>manipulate strings across multiple threads, you might want to use </mark> `StringBuffer` <mark> instead.</mark>
+7. **Thread Safety:** Unlike `StringBuffer`, `StringBuilder` is not synchronized, which means it is <mark>not thread-safe.</mark> This is okay when you're working within a single thread, but if you need to <mark>manipulate strings across multiple threads, you might want to use </mark> `StringBuffer` <mark>instead.</mark>
     
 
 In essence, `StringBuilder` is a tool specifically designed to help you construct and manipulate strings more efficiently, especially when you're dealing with a lot of modifications. Its mutable nature and in-place modifications make it a valuable choice for scenarios where performance and memory usage matter.
 
 Here are some code snippets demonstrating the fundamental concepts of `StringBuilder`:
 
-**1\. Creating a StringBuilder:** You can create a `StringBuilder` with an optional initial capacity. If not provided, it starts with a default capacity.
+### **1\. Creating a StringBuilder:**
+
+You can create a `StringBuilder` with an optional initial capacity. If not provided, it starts with a default capacity.
 
 ```java
 StringBuilder stringBuilder = new StringBuilder(); // Default capacity
 StringBuilder sbWithCapacity = new StringBuilder(20); // Initial capacity of 20
 ```
 
-**2\. Appending Characters and Strings:** Use `append()` to add characters or strings to the end of the `StringBuilder`.
+### **2\. Appending Characters and Strings:**
+
+Use `append()` to add characters or strings to the end of the `StringBuilder`.
 
 ```java
 StringBuilder stringBuilder = new StringBuilder();
@@ -158,7 +162,9 @@ stringBuilder.append(' ');
 stringBuilder.append("World");
 ```
 
-**3\. Inserting and Deleting:** `insert()` allows you to insert content at a specific position, and `delete()` removes a range of characters.
+### **3\. Inserting and Deleting:**
+
+`insert()` allows you to insert content at a specific position, and `delete()` removes a range of characters.
 
 ```java
 StringBuilder stringBuilder = new StringBuilder("Hello World");
@@ -166,14 +172,18 @@ stringBuilder.insert(5, ","); // Inserting a comma at position 5
 stringBuilder.delete(5, 6);   // Deleting the comma
 ```
 
-**4\. Chaining Methods:** You can chain multiple operations together using method chaining.
+### **4\. Chaining Methods:**
+
+You can chain multiple operations together using method chaining.
 
 ```java
 StringBuilder stringBuilder = new StringBuilder();
 stringBuilder.append("Hello").append(" ").append("World");
 ```
 
-**5\. Converting to String:** When you're done building the string, convert the `StringBuilder` to an immutable `String`.
+### **5\. Converting to String:**
+
+When you're done building the string, convert the `StringBuilder` to an immutable `String`.
 
 ```java
 StringBuilder stringBuilder = new StringBuilder();
@@ -182,7 +192,9 @@ stringBuilder.append(" World");
 String finalString = stringBuilder.toString();
 ```
 
-**6\. Efficient Concatenation in a Loop:** Using `StringBuilder` for efficient string concatenation in a loop.
+### **6\. Efficient Concatenation in a Loop:**
+
+Using `StringBuilder` for efficient string concatenation in a loop.
 
 ```java
 StringBuilder stringBuilder = new StringBuilder();
@@ -191,14 +203,18 @@ for (int i = 0; i < 1000; i++) {
 }
 ```
 
-**7\. Capacity Management:** `StringBuilder` automatically manages capacity as the string grows.
+### **7\. Capacity Management:**
+
+`StringBuilder` automatically manages capacity as the string grows.
 
 ```java
 StringBuilder stringBuilder = new StringBuilder("Initial Content");
 int currentCapacity = stringBuilder.capacity(); // Get current capacity
 ```
 
-**8\. Performance Benefits:** Comparing `StringBuilder` with regular string concatenation.
+### **8\. Performance Benefits:**
+
+Comparing `StringBuilder` with regular string concatenation.
 
 ```java
 String result = "";
