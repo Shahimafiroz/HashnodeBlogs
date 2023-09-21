@@ -9,7 +9,7 @@ tags: postman, express, http, nodejs, expressjs-cilb5apda0066e053g7td7q24
 
 ---
 
-# Node.js & Express, hand in hand?
+# 1.Node.js & Express, hand in hand?
 
 ### What is a runtime environment?
 
@@ -59,7 +59,7 @@ Among JavaScript backend developers, Express is the go-to choice for creating we
     [![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695299110595/763b8088-222f-49d5-8077-39c73a8ab860.png align="center")](https://expressjs.com/en/starter/installing.html)
     
 
-# What is NPM?
+# 2.What is NPM?
 
 NPM <mark>(Node Package Manager</mark>) is a **tool used** in the Node.js ecosystem **to manage and distribute JavaScript packages or libraries.** It allows developers to easily install, update, and share code packages with others.
 
@@ -70,7 +70,7 @@ In the car and engine analogy:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695304494331/7a151f12-590e-4c5f-9bb3-eb3baa8290ca.avif align="center")
 
-# Creating out Express server.
+# 3.Creating our Express server.
 
 Creating an Express server involves six key steps:
 
@@ -118,7 +118,7 @@ This is the output you must get in your terminal
 <div data-node-type="callout-text">Use <code>Ctrl + C</code> to stop the server.</div>
 </div>
 
-### What is localhost 3000?
+### What is LocalHost 3000?
 
 "[Localhost](http://Localhost)" is like **your computer** playing the role of a **server for your website**, but only within your computer. It's like your **computer becoming the host for your website's back end**, and this is the "local" part of hosting.
 
@@ -134,3 +134,111 @@ These doors (ports) help different services, like your printer or remote control
 </div>
 
 So, **when you encounte**r an error message like "`cannot get /`," it means your **server couldn't find the specific thing you requested**.
+
+# 4.HTTP Requests
+
+HTTP request verbs, also known as HTTP methods, are actions or commands used by clients (e.g., web browsers) to communicate with web servers. These verbs specify the desired operation to be performed on a resource identified by a URL. Here are some common HTTP request verbs:
+
+1. **GET**: Used to retrieve data from the server. When you visit a web page in your browser, it typically sends a GET request to the server to **<mark>fetch the page's content.</mark> H**ence the above error "[Cannot GET](https://cdn.hashnode.com/res/hashnode/image/upload/v1695303035953/3c1ee678-9605-49b1-89a7-0886f6f6a67c.png)" means
+    
+    ```javascript
+    app.get("/", (req, res) =>
+     {   res.send("hellooooo shahima !!!"); 
+    });
+    ```
+    
+2. **POST**: Used to send data to the server to **<mark>create a new resource.</mark>** It is commonly used when submitting forms on websites, where data like user input is sent to the server for processing.
+    
+3. **PUT**: Used to **<mark>update or replace an existing resource</mark>** on the server. It sends data to completely replace the identified resource or create it if it doesn't exist.
+    
+4. **PATCH**: Similar to PUT, but used to apply **<mark>partial modifications to an existing resource. </mark>** It's often used when you want to update only specific fields of a resource.
+    
+5. **DELETE**: Used to **<mark>request the removal of a resource</mark>** on the server.
+    
+
+These HTTP request verbs allow clients to interact with web servers in various ways, enabling actions like retrieving data, submitting data, updating resources, and more. Each verb serves a specific purpose and is used in specific contexts when building web applications and APIs.
+
+### What is the difference between **<mark>put</mark>** and **<mark>patch</mark>?**
+
+The main difference between the HTTP methods PUT and PATCH lies in how they handle updates to resources:
+
+**PUT**:
+
+* **Analogous to Replacing**: Think of PUT as similar to completely replacing an object with a new one. When you use PUT to update a resource, you send the entire updated object, and it replaces the existing resource on the server.
+    
+* **Idempotent**: PUT requests are idempotent, meaning that **<mark>multiple identical PUT requests will have the same result as a single request. </mark>** If you send the same update multiple times, it **<mark>won't change the outcome.</mark>**
+    
+
+**PATCH**:
+
+* **Analogous to Modifying**: PATCH is like making specific modifications or changes to an object without replacing it entirely. When you use PATCH, you send only the changes you want to apply to the resource, leaving the rest of the resource intact.
+    
+* **Not Necessarily Idempotent**: PATCH requests are not inherently idempotent. **<mark>The same PATCH request applied multiple times might yield different results</mark>** if the initial state of the resource changes between requests.
+    
+
+**Analogy**: Imagine you have a car, and you want to update its colour:
+
+* Using **PUT** is like taking the car to the shop and completely <mark> replacing it with a new car of the desired colour.</mark> You get a brand-new car, but it's a complete replacement.
+    
+* Using **PATCH** is like <mark>painting the car in the desired colour</mark> without changing the entire vehicle. You modify a specific part (the colour) while leaving the rest of the car as it is.
+    
+
+In summary, PUT replaces the entire resource, while PATCH makes partial modifications to the resource, much like getting a new car vs. painting an existing one.
+
+### HTTP Response Status Code.
+
+HTTP response status codes are three-digit numbers that the server sends to the client's browser to provide information about the outcome of an HTTP request. These status codes convey whether the request was successful, encountered an error, or requires further action. Here are some common HTTP response status codes:
+
+**1xx (Informational):** These are informational responses and are not typically seen in everyday web browsing.
+
+* **100 Continue:** The **<mark>initial part of the request was received,</mark>** <mark> and the </mark> **<mark>client should proceed</mark>** with sending the remainder of the request.
+    
+
+**2xx (Successful):** These indicate that the **<mark>request was received, understood, and successfully processed.</mark>**
+
+* 200 OK: The **request was successful,** and the server is sending back the requested data.
+    
+* 201 Created: The **request has been fulfilled,** and a **new resource has been created.**
+    
+* 204 No Content: The **request was successful, but there is no content to send back.**
+    
+
+**3xx (Redirection):** These codes indicate that further action needs to be taken to complete the request.
+
+* 301 Moved Permanently: The requested resource has been permanently moved to a new URL.
+    
+* 302 Found (or 303 See Other): The resource is temporarily located at a different URL.
+    
+* 304 Not Modified: The client's cached version of the resource is still valid.
+    
+
+**4xx (Client Error):** These indicate that the client has made an error in the request.
+
+* 400 Bad Request: The server did not understand the request due to invalid syntax or other client-side issues.
+    
+* 401 Unauthorized: Authentication is required to access the requested resource.
+    
+* 403 Forbidden: The server understands the request but refuses to fulfil it.
+    
+
+**5xx (Server Error):** These indicate that the server failed to fulfil a valid request.
+
+* 500 Internal Server Error: A generic error message indicating a problem on the server.
+    
+* 502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from the upstream server.
+    
+
+These status codes help developers and web servers communicate issues with HTTP requests and responses. They provide valuable information for debugging and understanding the outcome of web requests.
+
+> ***HTTP status code cheat sheet according to Sander Hoogendoorn***
+> 
+> * **1xx (Informational)**: "Hold on, something's happening or I'm giving you some info."
+>     
+> * **2xx (Successful)**: "Here you go, success, here's what you wanted."
+>     
+> * **3xx (Redirection)**: "Go away, I'm redirecting you to this URL."
+>     
+> * **4xx (Client Error)**: "You screwed up, the request is invalid."
+>     
+> * **5xx (Server Error)**: "I screwed up, there's a problem on my end."
+>
