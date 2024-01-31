@@ -1,8 +1,8 @@
 ---
-title: "Brief Overview Of OOP"
+title: "2.Brief Overview Of OOP"
 datePublished: Mon Aug 21 2023 20:23:42 GMT+0000 (Coordinated Universal Time)
 cuid: clllbrhc7000m0amne3et65pd
-slug: brief-overview-of-oop
+slug: 2brief-overview-of-oop
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692529923494/2a43253d-5850-4988-8671-aa4e5952245c.png
 tags: inheritance, abstraction, polymorphism, encapsulation
 
