@@ -1,9 +1,9 @@
 ---
-title: "Strings & StringBuilder in JAVA"
+title: "3.Strings & StringBuilder in JAVA"
 seoTitle: "String&StringBuilder"
 datePublished: Thu Aug 31 2023 16:45:45 GMT+0000 (Coordinated Universal Time)
 cuid: cllzedpli000b09k5fet3hmqu
-slug: strings-stringbuilder-in-java
+slug: 3strings-stringbuilder-in-java
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693499150453/7e9b9746-2106-4ab8-89b5-84d589001369.png
 tags: java, opensource, string, object-oriented-programming, stringbuilder
 
